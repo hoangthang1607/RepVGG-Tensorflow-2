@@ -1,0 +1,5 @@
+Pillow
+numpy
+opencv_contrib_python
+tensorflow-datasets==4.0.1
+tensorflow-addons==0.12.1
