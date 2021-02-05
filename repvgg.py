@@ -411,7 +411,7 @@ def repvgg_model_convert(
             weights = layer.get_weights()
             deploy_layer.set_weights(weights)
 
-        if save_path is not None:
-            deploy_model.save_weights(save_path)
+    if save_path is not None:
+        deploy_model.save_weights(save_path)
 
     return deploy_model
